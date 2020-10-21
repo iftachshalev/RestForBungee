@@ -1,0 +1,19 @@
+{
+  "name": "restforbungee",
+  "version": "1.0.0",
+  "description": "restfulAPI for bungee game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iftachshalev/RestForBungee.git"
+  },
+  "author": "Iftach Shalev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iftachshalev/RestForBungee/issues"
+  },
+  "homepage": "https://github.com/iftachshalev/RestForBungee#readme"
+}
