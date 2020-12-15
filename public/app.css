@@ -1,0 +1,36 @@
+.side-nav {
+    background-color: rgba(0, 0, 0, .8);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-size: 1.4rem;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    height: 98.4vh;
+    width: 180px;
+    padding: 0px;
+}
+
+.space {
+    margin-top: 20px;
+}
+.link {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: hsla(0,0%,100%,.65)!important;
+    margin-left: 25px;
+    align-items: center;
+    display: flex;
+    height: 22px;
+}
+a {
+    text-decoration: none !important;
+}
+
+.nav-back {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.div-bungame {
+    font-size: 1.6rem;
+}
