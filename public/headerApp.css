@@ -9,6 +9,7 @@
     height: 98.4vh;
     width: 180px;
     padding: 0px;
+    margin-right: 0px;
 }
 
 .space {
@@ -33,4 +34,49 @@ a {
 
 .div-bungame {
     font-size: 1.6rem;
+}
+
+.remove1 {
+    display:none;
+}
+
+.show1 {
+    display: block;
+}
+
+.open-nav {
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-size: 1.4rem;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    height: 98.4vh;
+    width: 350px;
+    padding: 0px;
+}
+
+.mar-l-0 {
+    padding-left: 0px!important;
+}
+
+.bold {
+    font-size: 30px;
+}
+
+.rm {
+    margin-right: 10px;
+}
+
+.fa-pray {
+    margin-right: 23px;
+}
+
+.fa-house-user {
+    margin-right: 13px;
+}
+
+.back-time {
+    /* display: none; */
 }

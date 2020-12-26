@@ -11,6 +11,7 @@ const express             = require("express"),
 	passportLocalMongoose = require("passport-local-mongoose"),
 	session               = require("express-session"),
 	mainRouter            = require("./routes/main"),
+	playRouter            = require("./routes/play"),
 	methodOverride        = require("method-override");
 
 // <<<<<<<< !requires!
@@ -45,5 +46,6 @@ app.use((req, res, next) => {
 });
 
 app.use(mainRouter);
+app.use(playRouter);
 
 app.listen(port, () => console.log("server is running on port 4040"));

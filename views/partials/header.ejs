@@ -11,44 +11,48 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
     	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     	<script src="https://kit.fontawesome.com/1ce788f167.js" crossorigin="anonymous"></script>
-    	<link rel="stylesheet" type="text/css" href="/stylesheets/app.css">
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="app.css">
-        <script src="app.js"></script>
+        <link rel="stylesheet" href="/headerApp.css">
+        <script src="/headerApp.js"></script>
 	</head>
 	<body>
-		<!-- <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-		  	<div class="container-fluid">
-			    <a class="navbar-brand" href="/">BunGame</a>
-			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		      	<span class="navbar-toggler-icon"></span>
-			    </button>
-		    	<div class="collapse navbar-collapse" id="navbarNav">
-		      		<ul class="navbar-nav">
-		        		<li class="nav-item">
-		          			<a class="nav-link active" aria-current="page" href="/home">Home</a>
-		        		</li>
-		        		<li class="nav-item">
-		          			<a class="nav-link active" aria-current="page" href="/play">Play</a>
-		        		</li>
-		        		<li class="nav-item">
-		          			<a class="nav-link" href="#">Features</a>
-		        		</li>
-		        		<li class="nav-item">
-		          			<a class="nav-link" href="#">Pricing</a>
-		        		</li>
-		      		</ul>
-		    	</div>
-	  		</div>
-        </nav> -->
         <div class="row">
             <div class="col-md-2 side-nav sticky-top">
-                <div class="div-bungame"><a class="link bungame" href="/"><i class="fab fa-d-and-d"></i> BunGame</a></div>
-                <div class="space"></div>
-                <div class="div-home"><a class="link home" href="/home"><i class="fas fa-house-user"></i> Home</a></div>
-                <div class="space"></div>
-                <div class="div-play"><a class="link play" href="/play"><i class="fas fa-pray"></i> Play</a></div>
+                <div class="div-bungame"><a class="link bungame" href="/"><i class="fab fa-d-and-d rm"></i> BunGame</a></div>
+                <div class="div-home"><a class="link home" href="/home"><i class="fas fa-house-user rm"></i> Home</a></div>
+                <div class="div-play"><a class="link play" href="/play"><i class="fas fa-pray rm"></i> Play</a></div>
             </div>
             <div class="col-md-10">
+                <div class="row remove1 bungame-opened">
+                    <div class="col-md-3 mar-l-0 bungame-check">
+                        <div class="shade svelte-199tut6 open-nav sticky-top">
+                            <a href="#" target="_self" class="link main-link">No alerts</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row remove1 home-opened">
+                    <div class="col-md-3 mar-l-0 home-check">
+                        <div class="shade svelte-199tut6 open-nav sticky-top">
+                            <a href="/home" onmouseover="mouseOverItem(this)" onmouseout="mouseOutItem(this)" target="_self" class="link main-link">Home
+                            <span class="svelte-badge badge" data-badge="lesson_quota_refilled">★</span></a>
+                            <a href="#" onmouseover="mouseOverItem(this)" onmouseout="mouseOutItem(this)" target="_self" class="link main-link sprite"><i class="fas fa-envelope"></i><pre> </pre>messages</a>
+                            <a href="#" onmouseover="mouseOverItem(this)" onmouseout="mouseOutItem(this)" class="link main-link articles"><i class="fas fa-star-half-alt"></i><pre> </pre>raiting</a>
+                            <a href="#" onmouseover="mouseOverItem(this)" onmouseout="mouseOutItem(this)" target="_self" class="link main-link"><i class="fas fa-id-card-alt"></i><pre> </pre>profile</a>
+                            <a href="#" onmouseover="mouseOverItem(this)" onmouseout="mouseOutItem(this)" target="_self" class="link main-link"><i class="fas fa-cog"></i><pre> </pre>settings</a>
+                            <a href="#" onmouseover="mouseOverItem(this)" onmouseout="mouseOutItem(this)" target="_self" class="link main-link"><i class="fas fa-sign-out-alt"></i><pre> </pre>logout</a>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="row remove1 play-opened">
+                    <div class="col-md-3 mar-l-0 play-check">
+                        <div class="shade svelte-199tut6 open-nav sticky-top">
+                            <a href="/play" onmouseover="mouseOverItem(this)" onmouseout="mouseOutItem(this)" target="_self" class="link main-link">Play
+                            <span class="svelte-badge badge" data-badge="lesson_quota_refilled">★</span></a>
+                            <a href="/play/online" onmouseover="mouseOverItem(this)" onmouseout="mouseOutItem(this)" target="_self" class="link main-link sprite analysis"><i class="fas fa-globe-americas"></i><pre> </pre>Play online</a>
+                            <a href="/play/computer" onmouseover="mouseOverItem(this)" onmouseout="mouseOutItem(this)" target="_self" class="link main-link sprite analysis"><i class="fas fa-laptop"></i><pre> </pre>Computer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="back-time"></div>
 
